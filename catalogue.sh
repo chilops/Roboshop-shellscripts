@@ -5,7 +5,7 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
-MONGDB_HOST=mongodb.chowdarychilukuri.in
+MONGDB_HOST=172.31.22.209
 
 TIMESTAMP=$(date +%F-%H:%M:%S)
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
