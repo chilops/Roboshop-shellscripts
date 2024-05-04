@@ -25,7 +25,7 @@ do
     {
         "Comment": "Creating a record set for cognito endpoint"
         ,"Changes": [{
-        "Action"              : "UPSERT"
+        "Action"              : "UPSERT"   #upsert if recrord exist it will edit, if not there it will create record
         ,"ResourceRecordSet"  : {
             "Name"              : "'$i'.'$DOMAIN_NAME'"
             ,"Type"             : "A"
